@@ -26,6 +26,6 @@ systemctl enable podman.socket
 # Add Niri and DankMaterialShell
 dnf5 -y copr enable avengemedia/dms
 dnf5 -y install niri dms
-systemctl --user add-wants niri.service dms
 dnf5 -y copr disable avengemedia/dms
+systemctl enable --global dms.service
 
