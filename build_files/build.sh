@@ -28,5 +28,5 @@ dnf5 -y copr enable avengemedia/dms
 dnf5 -y install niri dms
 dnf5 -y copr disable avengemedia/dms
 systemctl enable --global dms.service
-dnf5 -y install fuzzel alacritty swaylock 
+dnf5 -y install fuzzel alacritty swaylock swayidle
 
