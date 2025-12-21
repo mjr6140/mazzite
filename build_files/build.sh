@@ -30,3 +30,5 @@ dnf5 -y copr disable avengemedia/dms
 systemctl enable --global dms.service
 dnf5 -y install fuzzel alacritty swaylock swayidle
 
+# Add top level nix directory so we can use nix on bazzite
+mkdir /nix
